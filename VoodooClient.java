@@ -6,10 +6,10 @@ public class VoodooClient
 	public static void main(String args[]) throws IOException
 	{
 		int serverPort = 48879;
-		String host = "192.168.1.113";
+		String host = "SparkIP";
 		
 		
-			// get a datagram socket
+		// get a datagram socket
 	    DatagramSocket socket = new DatagramSocket();
 	
 	        // send request
